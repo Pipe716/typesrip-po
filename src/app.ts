@@ -1,4 +1,4 @@
- class Aplicacion
+class Aplicacion
 {
     private albumList:Array<Album>;
 

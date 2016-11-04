@@ -1,5 +1,8 @@
 var Album = (function () {
-    function Album() {
+    function Album(nombre, fechaLanzamiento) {
+        this.nombre = nombre;
+        this.fechaLanzamiento = fechaLanzamiento;
+        this.artistasList = new Array();
     }
     return Album;
 }());
